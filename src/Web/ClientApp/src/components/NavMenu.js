@@ -22,14 +22,14 @@ class NavMenu extends Component {
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
+                        <LinkContainer to={'#'} hover={'Log in with your Microsoft user'}>
+                            <NavItem>
+                                <Glyphicon glyph='user' /> Log in
+                            </NavItem>
+                        </LinkContainer>
                         <LinkContainer to={'/'} exact>
                             <NavItem>
                                 <Glyphicon glyph='list' /> Leagues
-                            </NavItem>
-                        </LinkContainer>
-                        <LinkContainer to={'#'}>
-                            <NavItem>
-                                <Glyphicon glyph='refresh' /> Change Theme (Coming soon?)
                             </NavItem>
                         </LinkContainer>
                     </Nav>

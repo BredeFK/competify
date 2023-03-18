@@ -8,6 +8,7 @@ import Layout from "./components/Layout";
 import Home from "./components/Leagues";
 import League from "./components/League";
 import CompetitorStats from "./components/CompetitorStats";
+import { config } from "./Config";
 
 export default () => (
   <Layout>
